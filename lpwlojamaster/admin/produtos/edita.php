@@ -15,6 +15,6 @@ if($resultado != false){
 	  else{
 	  	echo 'deu ruim!';
 	  }
-	 $full_path = $base_url.'../admin/produtos/index.php';
+	 $full_path = $base_url.'../admin/produtos/index.php?id='. $id);
 	 echo  '<a class="btn btn-primary" href='. $full_path .'>Voltar</a>';
 ?>
